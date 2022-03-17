@@ -147,7 +147,7 @@ export default () => {
       setHasTicket(true);
     } catch (error) {
       console.log(error);
-      setError(error.message);
+    } finally {
       setBuyPending(false);
     }
   }
@@ -162,9 +162,9 @@ export default () => {
       await contract.current.drawWinner({gasLimit: 3000000});
     } catch (error) {
       console.log(error.message);
+    } finally {
+      setDrawPending(false);
     }
-
-    setDrawPending(false);
   }
 
   const isOwner = () => (

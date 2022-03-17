@@ -9,61 +9,84 @@ body {
   color: #fff;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background: #232020;
-  padding: 15px 10px;
-  align-items: center;
+button {
+  padding: 1rem;
+  background: #fff;
+  border: none;
+  border-radius: .3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: .875rem;
+  font-weight: bold;
 }
 
-.logo {
-  display: flex;
+button:hover {
+  background: rgba(255, 255, 255, .8);
 }
 
-nav {
-  margin-left: 50px;
-}
-
-nav a {
-  margin: 0 15px;
-  color: #fff;
+button:active {
+  transform: scale(.98);
 }
 
 .main {
-  width: 1400px;
+  max-width: 1000px;
+  min-width: 600px;
   margin: auto;
 }
 
-.nfts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.nft {
-  border: 1px solid #1e1a1a;
-  background: #0000003b;
-  border-radius: 4px;
-  margin: 10px 0;
+.admin-panel {
+  margin-top: 2rem;
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .4);
+  border-radius: 1rem;
 }
 
-.nft-informations {
-  padding: 10px;
+.admin-panel .admin-panel-header {
+  padding: 1rem 0;
+  border: 1px solid rgba(255, 255, 255, .4);
+  border-width: 0 0 1px 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.nft-informations p {
+.admin-panel .admin-panel-header h3 {
   margin: 0px;
 }
 
-.nft-informations button {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  border: none;
-  padding: 5px;
-  border-radius: 4px;
-  margin-top: 10px;
-  color: #fff;
-  cursor: pointer;
+.admin-panel .admin-panel-body {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.loading {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .7);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.message {
+  border: 1px solid #CCC;
+  border-radius: .3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.message.warning {
+  border-color: rgb(202, 187, 47);
+  background: rgb(202, 187, 47, .2);
+  color: #cabb2f;
+}
+
+.message.danger {
+  border-color: rgb(202, 47, 55);
+  color: #ca2f37;
+  background: rgb(202, 47, 55, .2);
+  font-weight: bold;
 }

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background: #383535;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #232020;
+  padding: 15px 10px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+nav {
+  margin-left: 50px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+}
+
+.main {
+  width: 1400px;
+  margin: auto;
+}
+
+.nfts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.nft {
+  border: 1px solid #1e1a1a;
+  background: #0000003b;
+  border-radius: 4px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.nft-informations {
+  padding: 10px;
+}
+
+.nft-informations p {
+  margin: 0px;
+}
+
+.nft-informations button {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+}

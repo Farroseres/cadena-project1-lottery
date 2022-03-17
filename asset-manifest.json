@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cadena-project1-lottery/static/css/main.7c9aa3ca.css",
-    "main.js": "/cadena-project1-lottery/static/js/main.8509c467.js",
+    "main.js": "/cadena-project1-lottery/static/js/main.9cf9217f.js",
     "index.html": "/cadena-project1-lottery/index.html",
     "main.7c9aa3ca.css.map": "/cadena-project1-lottery/static/css/main.7c9aa3ca.css.map",
-    "main.8509c467.js.map": "/cadena-project1-lottery/static/js/main.8509c467.js.map"
+    "main.9cf9217f.js.map": "/cadena-project1-lottery/static/js/main.9cf9217f.js.map"
   },
   "entrypoints": [
     "static/css/main.7c9aa3ca.css",
-    "static/js/main.8509c467.js"
+    "static/js/main.9cf9217f.js"
   ]
 }
